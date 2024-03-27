@@ -64,7 +64,7 @@ st.title("Sign Language Interpreter")
 
 # Initialize hand detector and classifier
 detector = HandDetector(maxHands=1)
-classifier = Classifier("model/keras_model.h5", "model/labels.txt")
+classifier = Classifier("keras_model.h5", "labels.txt")
 
 # Initialize video capture
 cap = cv2.VideoCapture(0)
