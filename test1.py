@@ -8,6 +8,7 @@ from gtts import gTTS
 # from pydub import AudioSegment
 import streamlit as st
 import io
+from pathlib import Path
 
 # Function to convert text to speech
 def text_to_speech(text):
